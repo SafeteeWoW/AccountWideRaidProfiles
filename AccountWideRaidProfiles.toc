@@ -1,8 +1,8 @@
-## Interface: 70300
+## Interface: 90001
 ## Title: Account Wide Raid Profiles
 ## Notes: Make blizzard raid profile settings account-wide.
 ## Author: safetee
-## Version: 1.1.1
+## Version: 1.1.2
 ## SavedVariables: AccountWideRaidProfilesDB
 
 Libs\LibStub\LibStub.lua
