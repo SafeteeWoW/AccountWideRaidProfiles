@@ -2,6 +2,12 @@ local addonName = "AccountWideRaidProfiles"
 local dbName = "AccountWideRaidProfilesDB"
 
 local addon = LibStub("AceAddon-3.0"):NewAddon(addonName,"AceHook-3.0", "AceEvent-3.0", "AceConsole-3.0")
+
+addon.version = "1.3.0"
+addon.version_major = 1
+addon.version_minor = 3
+addon.version_patch = 0
+
 local AceGUI = LibStub("AceGUI-3.0")
 
 local CVAR_FRAME_STYLE = "useCompactPartyFrames"
