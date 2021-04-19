@@ -253,7 +253,7 @@ function addon:StoreFrameStyleChanges(glStr, value)
 end
 
 function addon:StorePosition(...)
-   args = {...}
+   local args = {...}
    for i=1, #self.db.profile.positions do
       if self.db.profile.profiles[i] == args[1] then
          self.db.profile.positions[i] = {select(2,unpack(args))}
@@ -307,10 +307,10 @@ function addon:isProfilesEqual(p1, p2)
             return false
       end end
       for j=1,#p1.positions[i] do
-         a = p1.positions[i][j]
-         b = p2.positions[i][j]
-         na = tonumber(a)
-         nb = tonumber(b)
+         local a = p1.positions[i][j]
+         local b = p2.positions[i][j]
+         local na = tonumber(a)
+         local nb = tonumber(b)
          if ((not na) and (not nb) and (a ~= b)) then
             return false
          end
