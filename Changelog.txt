@@ -25,10 +25,13 @@ Change the style of dialog.
 No longer reload the user interface automatically when the the option panel is closed if any changes are made, a dialog is shown instead.
 
 ---------------------------------------------------------
+
 1.0.1
 Fix an issue that overwrites the description of other addons
 that uses AceDBOptions.
+
 ---------------------------------------------------
+
 1.0
 Important update that should fix the frame taint issue (i.e. chat print "Interface failed because of addons" during combat and raid frame becomes unclickable)
 
@@ -37,27 +40,41 @@ the addon requests to reload ui. The UI is reloaded automatically when changing 
 the addon. This is to avoid taint.
 
 The option to show raid frame when solo has been removed because I cant find a way to avoid taint with that option.
+
 ------------------------------------------------------------
+
 0.6.1
 Fix a LUA error
+
 ---------------------------------------------------------------
+
 0.6
 You can now precisely adjust the position and size of the raid frame by entering numbers in the option panel.
 When the option panel is opened, the raid frame is always shown even if you are solo to help you adjust it.
 Add an extra option not available in the default raid profile settings that show raid frame when you are solo.
+
 ---------------------------------------------------------------------------------------------------------------
+
 0.4.1
 Small bug fix
+
 -------------------------------------------
+
 0.4
 Delay Profile switch/reset until end of combat.
+
 -------------------------------
+
 0.3
 Add Option panel to manage profile. Use /awrp or game menu to access options.
 You can now share raid profile settings across characters  any way you want, not only limited to fully account-wide.
+
 ---------------------------------
+
 0.2
 Change to beta. No real changes.
+
 ------------------------------
+
 0.1
 First alpha version.
