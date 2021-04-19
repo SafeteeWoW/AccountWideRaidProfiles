@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90005
 ## Title: Account Wide Raid Profiles
 ## Notes: Make blizzard raid profile settings account-wide.
 ## Author: safetee
