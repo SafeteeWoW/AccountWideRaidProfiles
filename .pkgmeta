@@ -17,3 +17,5 @@ enable-nolib-creation: no
 manual-changelog:
   filename: Changelog.txt
   markup-type: markdown
+
+license-output: LICENSE.txt
