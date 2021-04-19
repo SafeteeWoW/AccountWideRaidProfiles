@@ -2,6 +2,12 @@
 
 Update for v9.0.5. Contributed by Nnoggie
 
+Mainly just some dependency updates and toc change.
+Fix some global variable leaks.
+
+The author does not play this game much at the moment.
+Please report bug to Github if you have encountered any issue.
+
 ---------------------------------------------------------
 
 1.2
