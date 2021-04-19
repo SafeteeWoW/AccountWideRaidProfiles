@@ -3,6 +3,13 @@ local dbName = "AccountWideRaidProfilesDB"
 
 local addon = LibStub("AceAddon-3.0"):NewAddon(addonName,"AceHook-3.0", "AceEvent-3.0", "AceConsole-3.0")
 
+--[[
+	Curseforge auto-packaging replacements:
+	Project Date: @project-date-iso@
+	Project Hash: @project-hash@
+	Project Version: @project-version@
+--]]
+
 addon.version = "1.3.0"
 addon.version_major = 1
 addon.version_minor = 3
